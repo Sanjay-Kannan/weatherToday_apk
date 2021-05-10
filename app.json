@@ -4,10 +4,12 @@
     "slug": "Weather_today",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/head.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/weather-app-temperature-forecast-application-512.png",
       "resizeMode": "contain",
+      "width":100,
+      "height":100,
       "backgroundColor": "#ffffff"
     },
     "updates": {
@@ -21,12 +23,12 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "foregroundImage": "./assets/head.png",
+        "backgroundColor": "#CCCCE8"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/head.png"
     }
   }
 }
